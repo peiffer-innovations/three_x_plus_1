@@ -43,6 +43,6 @@ jobs:
           build_mode: profile
           build_number: ${{ needs.build_number.outputs.buildnumber }}
           deploy_path: web
-          repo_url: https://github.com/peiffer-innovations/automated_testing_framework
+          repo_url: https://github.com/peiffer-innovations/three_x_plus_1
           source_path: example
           token: ${{ secrets.GITHUB_TOKEN }}
